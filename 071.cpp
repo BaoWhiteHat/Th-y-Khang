@@ -15,10 +15,10 @@ int main()
     int t = x;
     int i = 3;
 
-    while ( i <= 2*n + 1)
+    while (i <= 2 * n + 1)
     {
         t = t * x * x;
-        s = s+t;
+        s = s + t;
         i = i + 2;
     }
     cout << s;

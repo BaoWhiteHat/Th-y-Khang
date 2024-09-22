@@ -11,7 +11,7 @@ int main()
     int m = 0;
     int i = 1;
 
-    while ( i <= n ) 
+    while (i <= n)
     {
         m = m + i;
         s = s + (float)1 / m;
